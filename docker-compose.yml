@@ -1,0 +1,19 @@
+version: "3.8"
+
+services:
+  netbirdjellyfincheck:
+    build: .
+    container_name: netbirdjellyfincheck
+    restart: no
+    environment:
+      CHECK_URL: ${CHECK_URL}
+      WEBHOOK_URL: ${WEBHOOK_URL}
+      TIMEOUT: ${TIMEOUT}
+      CHECK_INTERVAL: ${CHECK_INTERVAL}
+
+
+
+
+
+
+
