@@ -10,6 +10,9 @@ services:
       WEBHOOK_URL: ${WEBHOOK_URL}
       TIMEOUT: ${TIMEOUT}
       CHECK_INTERVAL: ${CHECK_INTERVAL}
+    dns:
+      - 1.1.1.1
+      - 1.0.0.1
 
 
 
